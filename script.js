@@ -10,12 +10,12 @@ function insert_Row() {
     
     // Create the first cell (td)
     let td1 = document.createElement('td');
-    td1.innerText = `Row Cell`;
+    td1.innerText = `New Cell1`;
     tr.append(td1);
     
     // Create the second cell (td)
     let td2 = document.createElement('td');
-    td2.innerText = `Row Cell`;
+    td2.innerText = `New Cell1`;
     tr.append(td2);
     
     // Append the row to the table
