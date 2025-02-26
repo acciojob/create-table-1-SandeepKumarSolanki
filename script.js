@@ -1,14 +1,24 @@
 
 
 let table = document.getElementById('sampleTable');
+// let btn = document.querySelector('button');
+// btn.addEventListener("click" , insert_Row);
 function insert_Row() {
     //Write your code here
-	let tr = document.createElement('tr');
-	let td = document.createElement('td');
-	td.innerText = `Row Cell`;
-	let td = document.createElement('td');
-	td.innerText = `Row Cell`
-	tr.append(td , td);
-	table.append(tr);
+	// Create a new row (tr)
+    let tr = document.createElement('tr');
+    
+    // Create the first cell (td)
+    let td1 = document.createElement('td');
+    td1.innerText = `Row Cell`;
+    tr.append(td1);
+    
+    // Create the second cell (td)
+    let td2 = document.createElement('td');
+    td2.innerText = `Row Cell`;
+    tr.append(td2);
+    
+    // Append the row to the table
+     table.insertBefore(tr, table.firstChild);
 	
 }
