@@ -15,7 +15,7 @@ function insert_Row() {
     
     // Create the second cell (td)
     let td2 = document.createElement('td');
-    td2.innerText = `New Cell1`;
+    td2.innerText = `New Cell2`;
     tr.append(td2);
     
     // Append the row to the table
